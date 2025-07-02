@@ -1,8 +1,8 @@
 # Bike Sales Dashboard
-This is a dashboard that uses customer data from bicycle sales to give some insights about the customer demographics. The data was first cleaned. Then the dashboard was built using Google Sheets. Either Excel or Sheets could be used to make this dashboard. I used Sheets.
+This dashboard examines the personal data of bike customers. I did a small amount of cleaning. For example, I spelled out the marital status data. These were abbreviated as M and S, and I changed them to "Married" and "Single" for clarity. I also filtered the customers' ages into 10-year age brackets to make data trends clearer in the dashboard. The original dataset is still included as the bike_buyers sheet in the Excel file.
 
-I did a small amount of data cleaning first. I copied the dataset into a new sheet so that I could alter it without risking the original. Some data such as male and female labels were entered as one letter. As a convenience to the user, I spelled them out fully as Male and Female. I also filtered the customers' ages into 10 year age brackets to make the data easier to understand.
+I created 3 graphs for this dashboard, one for customer income, one for customer age, and one for customer commute distance. Then I included three slicers to allow the user to do further exploration into the data.
 
-In the dashboard, I created a graph for the average income of the customers, a graph for the average age, and a graph for the average commute distance. I also included three slicers for the user to do more exploration into the data.
+Some of the apparent findings were that customers with higher income were more likely to make a purchase. That seems obvious, but it's slightly interesting to confirm. The majority of purchasers were in their 30s, and the most common commute distance of customers was less than 1 mile.
 
 ![Dashboard](Dashboard.png)
